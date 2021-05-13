@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+</head>
+<body>
+<fieldset style="width: 25%">
+    <legend style="text-align: center "><h1 style="color: lightseagreen">Sở thích của bạn</h1></legend>
+    <form style="background: ghostwhite">
+        <label> <span style="color: blue"><b>Họ và tên:</b></span><br>
+            <input type="text" name="yourname" style="width: 350px">
+        </label> <br><br>
+        <label> <span style="color: blue"><b>Email:</b></span><br>
+            <input type="text" name="Email" style="width: 350px">
+        </label> <br><br>
+        <label> <span style="color: blue"> <b>Sở thích:</b></span><br>
+            <span style="color: red">
+            <input name="hobby" value="Thể thao" type="checkbox"> Thể thao &nbsp; &nbsp; &nbsp;
+            <input name="hobby" value="Âm nhạc" type="checkbox"> Âm nhạc &nbsp;
+            <input name="hobby" value="Nấu ăn" type="checkbox"> Nấu ăn &nbsp;
+            <input name="hobby" value="Lướt Web" type="checkbox"> Lướt Web &nbsp; <br>
+            <input name="hobby" value="Chơi game" type="checkbox"> Chơi game &nbsp; &nbsp;
+            <input name="hobby" value="Điện ảnh" type="checkbox"> Điện ảnh &nbsp;
+            <input name="hobby" value="Du Lịch" type="checkbox"> Du lịch &nbsp;
+            </span>
+        </label>
+        <label> <br><br>
+            <input type="submit" name="Gửi thông tin" value="Gửi thông tin">
+            <input type="reset" name="Nhập lại" value="Nhập lại">
+        </label>
+    </form>
+</fieldset>
+<br>
+<fieldset style="width: 25%">
+    <legend style="color: red"><b style="font-size: 30px">Đăng ký học viên</b></legend><br>
+    <form style="background: yellow">
+        <label> <span style="color: blue"><b>Họ và tên: </b></span><br>
+            <input type="text" name="yourname" style="width: 350px">
+        </label>
+        <label> <span style="color: blue"><b>Ngày sinh: </b></span><br>
+            <input type="date" name="date"> <br>
+        </label>
+        <label> <span style="color: blue"><b>Giới tính:</b></span><br>
+            <input type="radio" name="gioitinh">Nam
+            <input type="radio" name="gioitinh">Nữ
+        </label> <br>
+        <label> <span style="color: blue"><b>Địa chỉ: </b></span>
+            <textarea cols="47" rows="4"></textarea>
+        </label>
+        <label> <span style="color: blue"><b>Lớp: </b></span><br>
+            <select style="width: 100px">
+                <option value="Chọn lớp">Lớp 1 </option>
+                <option> Lớp 2 </option>
+                <option> Lớp 3 </option>
+                <option> Lớp 4 </option>
+                <option> Lớp 5 </option>
+            </select>
+        </label>
+        <br>
+        <label> <span style="color: blue"><b>Email: </b></span>
+            <input type="email" name="email" style="width: 350px">
+        </label>
+        <label> <span style="color: blue"><b>Điện thoại: </b></span>
+            <input type="text" name="number" style="width: 350px">
+        </label>
+        <label>
+            <br><br>
+            <input type="submit" name="dangky" value="Đăng ký">
+        </label>
+        <label>
+            <input type="reset" name="reset" value="Nhập lại">
+        </label>
+    </form>
+</fieldset>
+</body>
+</html>
